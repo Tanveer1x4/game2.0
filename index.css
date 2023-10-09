@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+body{height: 100vh;
+    background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.board{
+height: 85vh;
+width: 80vw;
+background-color: #1d2a74;
+border-radius: 15px;
+border: solid 8px blueviolet;
+
+
+}
+.ball{
+    /* how to make circle in ; */
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #f83600;
+    position:fixed;
+    top:45vh;
+    left:50vw;+
+}
+.paddle{
+    height: 120px;
+    width: 15px;
+    background-color: #f9d423;
+    position: fixed;
+    border-radius: 5px;
+
+}
+.paddle.left
+{
+  
+    top: 40vh;
+    left: 12vw;
+}
+.paddle.right
+{
+   
+    top: 40vh;
+    right: 12vw;
+}
+.fa-circle{
+    color:blue ;
+    font-size: 2rem ;
+}
+.scoreboard{
+    
+    display: flex;
+    height: 60px;
+    justify-content: space-evenly;
+    align-items: center;
+    flex: 1 1 1;
+    
+
+}
+.separator{
+    width: 40px;
+    height: 70%;
+    background-color: black;
+}
